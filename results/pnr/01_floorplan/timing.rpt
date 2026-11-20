@@ -1,0 +1,43 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : picorv32
+Version: W-2024.09
+Date   : Mon Jun 22 14:27:31 2026
+****************************************
+
+  Startpoint: resetn (input port clocked by clk)
+  Endpoint: mem_la_write (output port clocked by clk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2out_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 r
+  resetn (in)                                      0.00      0.50 r
+  U7837/Y (INVX1_RVT)                              0.04      0.54 f
+  U7623/Y (NOR3X2_RVT)                             0.06      0.60 r
+  mem_la_write (out)                               0.00      0.60 r
+  data arrival time                                          0.60
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (ideal)                      0.00      5.00
+  clock uncertainty                               -0.25      4.75
+  output external delay                           -0.50      4.25
+  data required time                                         4.25
+  ------------------------------------------------------------------------
+  data required time                                         4.25
+  data arrival time                                         -0.60
+  ------------------------------------------------------------------------
+  slack (MET)                                                3.65
+
+
+1

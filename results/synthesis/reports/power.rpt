@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : picorv32
+Version: W-2024.09
+Date   : Mon Jun 22 12:39:36 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_ss0p7vn40c (File: ref/lib/stdcell_rvt/saed32rvt_ss0p7vn40c.db)
+
+
+Operating Conditions: ss0p7vn40c   Library: saed32rvt_ss0p7vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+picorv32               35000             saed32rvt_ss0p7vn40c
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 829.3315 uW  (100%)
+  Net Switching Power  =   4.1068 uW    (0%)
+                         ---------
+Total Dynamic Power    = 833.4383 uW  (100%)
+
+Cell Leakage Power     =  11.9165 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network    823.1288            0.0000            0.0000          823.1288  (  97.37%)  i
+register           1.0674            0.4896        1.1367e+07           12.9176  (   1.53%)
+sequential         0.4355        7.6199e-02        2.4973e+04            0.5367  (   0.06%)
+combinational      4.7029            3.5410        5.2455e+05            8.7684  (   1.04%)
+--------------------------------------------------------------------------------------------------
+Total            829.3347 uW         4.1068 uW     1.1916e+07 pW       845.3515 uW
+1

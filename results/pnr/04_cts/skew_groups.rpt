@@ -1,0 +1,13 @@
+****************************************
+Report : skew_group
+Design : picorv32
+Mode   : func
+Version: W-2024.09
+Date   : Mon Jun 22 14:38:12 2026
+****************************************
+  1. Skew Group Name : default_clk
+	user_defined : false
+	Master Clock : clk
+	Pins : 
+
+1

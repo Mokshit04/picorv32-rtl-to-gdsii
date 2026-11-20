@@ -1,0 +1,143 @@
+****************************************
+Report : qor
+Design : picorv32
+Version: W-2024.09
+Date   : Mon Jun 22 14:27:30 2026
+****************************************
+Information: Corner default: no PVT mismatches. (PVT-032)
+Warning: no valid parasitic for default corner(LATE) (NEX-018)
+Warning: no valid parasitic for default corner(EARLY) (NEX-018)
+Warning: no valid parasitic for (all corners) corner((both specs)) (NEX-018)
+Information: The stitching and editing of coupling caps is turned OFF for design 'picorv32_LIB_3:picorv32.design'. (TIM-125)
+Warning: The extractor can not be initialized for block 'picorv32'. (TIM-103)
+Warning: The extractor can not be initialized for design 'picorv32'. Zero interconnect delay is used in timing analysis. (TIM-102)
+Warning: Batch extraction is skipped for block "picorv32"
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 10664, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 0, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 disabled
+Timing Window Analysis:                    disabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     disabled
+Advanced Receiver Model:                   disabled
+LLE:                                       disabled
+ML Acceleration:                           off
+Smart Arc Optimization:                    disabled
+************************************************************
+
+
+Scenario           'default'
+Timing Path Group  '**in2reg_default**'
+----------------------------------------
+Levels of Logic:                     13
+Critical Path Length:              0.93
+Critical Path Slack:               3.79
+Critical Path Clk Period:          5.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'default'
+Timing Path Group  '**reg2out_default**'
+----------------------------------------
+Levels of Logic:                      8
+Critical Path Length:              0.38
+Critical Path Slack:               3.87
+Critical Path Clk Period:          5.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'default'
+Timing Path Group  '**in2out_default**'
+----------------------------------------
+Levels of Logic:                      2
+Critical Path Length:              0.60
+Critical Path Slack:               3.65
+Critical Path Clk Period:          5.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+Scenario           'default'
+Timing Path Group  'clk'
+----------------------------------------
+Levels of Logic:                     18
+Critical Path Length:              0.60
+Critical Path Slack:               4.12
+Critical Path Clk Period:          5.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+Worst Hold Violation:             -0.16
+Total Hold Violation:           -184.09
+No. of Hold Violations:            1576
+----------------------------------------
+
+
+Cell Count
+----------------------------------------
+Hierarchical Cell Count:              0
+Hierarchical Port Count:              0
+Leaf Cell Count:                   9246
+Buf/Inv Cell Count:                 788
+Buf Cell Count:                      62
+Inv Cell Count:                     726
+Combinational Cell Count:          7602
+   Single-bit Isolation Cell Count:                        0
+   Multi-bit Isolation Cell Count:                         0
+   Isolation Cell Banking Ratio:                           0.00%
+   Single-bit Level Shifter Cell Count:                    0
+   Multi-bit Level Shifter Cell Count:                     0
+   Level Shifter Cell Banking Ratio:                       0.00%
+   Single-bit ELS Cell Count:                              0
+   Multi-bit ELS Cell Count:                               0
+   ELS Cell Banking Ratio:                                 0.00%
+Sequential Cell Count:             1644
+   Integrated Clock-Gating Cell Count:                     0
+   Sequential Macro Cell Count:                            0
+   Single-bit Sequential Cell Count:                       1644
+   Multi-bit Sequential Cell Count:                        0
+   Sequential Cell Banking Ratio:                          0.00%
+   BitsPerflop:                                            1.00
+Macro Count:                          0
+----------------------------------------
+
+
+Area
+----------------------------------------
+Combinational Area:            18540.82
+Noncombinational Area:         10767.57
+Buf/Inv Area:                   1106.29
+Total Buffer Area:               135.97
+Total Inverter Area:             970.32
+Macro/Black Box Area:              0.00
+Net Area:                             0
+Net XLength:                   39329.65
+Net YLength:                   31058.94
+----------------------------------------
+Cell Area (netlist):                          29308.39
+Cell Area (netlist and physical only):        35118.13
+Net Length:                    70388.59
+
+
+Design Rules
+----------------------------------------
+Total Number of Nets:             10907
+Nets with Violations:                83
+Max Trans Violations:                 2
+Max Cap Violations:                  83
+----------------------------------------
+
+1

@@ -1,0 +1,15 @@
+****************************************
+Report : congestion
+Design : picorv32
+Version: W-2024.09
+Date   : Mon Jun 22 14:43:59 2026
+****************************************
+
+Layer     |    overflow     |              # GRCs has
+Name      |  total  |  max  | overflow (%)      | max overflow
+---------------------------------------------------------------
+Both Dirs |    2304 |     6 |    1850  ( 4.17%) |       2
+H routing |    1707 |     5 |    1432  ( 6.45%) |       1
+V routing |     597 |     6 |     418  ( 1.88%) |       2
+
+1

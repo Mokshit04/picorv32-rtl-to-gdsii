@@ -1,0 +1,19 @@
+****************************************
+Report : clock
+Design : picorv32
+Mode   : func
+Version: W-2024.09
+Date   : Mon Jun 22 14:38:12 2026
+****************************************
+
+
+Attributes:
+    p - Propagated clock
+    G - Generated  clock
+    U - Unexpanded generated clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+clk              5.00   {0 2.5}             p         {clk}
+
+1

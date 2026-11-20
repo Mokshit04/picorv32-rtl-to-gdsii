@@ -1,0 +1,38 @@
+Checking secondary net through power switch is enabled. 
+Secondary net will be checked together from primary net. They will be treated as the same net
+Primary Net : VDD    Secondary Net:
+Primary Net : VSS    Secondary Net:
+Loading cell instances...
+Number of Standard Cells: 17258
+Number of Macro Cells: 0
+Number of IO Pad Cells: 0
+Number of Blocks: 0
+Loading P/G wires and vias...
+Number of VDD Wires: 227
+Number of VDD Vias: 21202
+Number of VDD Terminals: 0
+**************Verify net VDD connectivity*****************
+  Number of floating wires: 10
+  Number of floating vias: 0
+  Number of floating std cells: 10206
+  Number of floating hard macros: 0
+  Number of floating I/O pads: 0
+  Number of floating terminals: 0
+  Number of floating hierarchical blocks: 0
+************************************************************
+Loading cell instances...
+Loading P/G wires and vias...
+Number of VSS Wires: 225
+Number of VSS Vias: 23230
+Number of VSS Terminals: 106
+**************Verify net VSS connectivity*****************
+  Number of floating wires: 0
+  Number of floating vias: 0
+  Number of floating std cells: 9246
+  Number of floating hard macros: 0
+  Number of floating I/O pads: 0
+  Number of floating terminals: 106
+  Number of floating hierarchical blocks: 0
+************************************************************
+Overall runtime: 0 seconds.
+{PATH_11_66 PATH_11_72 PATH_11_78 PATH_11_84 PATH_11_90 PATH_11_96 PATH_11_102 PATH_11_108 PATH_11_114 PATH_11_120}

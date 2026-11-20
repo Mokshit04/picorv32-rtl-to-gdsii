@@ -1,0 +1,17 @@
+Warning: The congestion map is out dated. Specify -rerun_global_router option to regenerate one.
+
+****************************************
+Report : congestion
+Design : picorv32
+Version: W-2024.09
+Date   : Mon Jun 22 14:31:53 2026
+****************************************
+
+Layer     |    overflow     |              # GRCs has
+Name      |  total  |  max  | overflow (%)      | max overflow
+---------------------------------------------------------------
+Both Dirs |     385 |    13 |     158  ( 0.36%) |       1
+H routing |      63 |     3 |      51  ( 0.23%) |       3
+V routing |     322 |    13 |     107  ( 0.48%) |       1
+
+1
