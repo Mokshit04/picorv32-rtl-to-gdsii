@@ -1,0 +1,46 @@
+# ---- Licensed PDK / libraries (Synopsys SAED32 - never commit) ----
+ref/
+*.db
+*.lib
+*.ndm
+*.tf
+*.tluplus
+*.map
+
+# ---- Tool working directory ----
+work/
+
+# ---- ICC2 design libraries ----
+*_LIB*/
+legalizer_debug_plots/
+cksum_dir/
+alib-*/
+
+# ---- Design Compiler intermediate files ----
+*.mr
+*.pvl
+*.syn
+*.svf
+*.ems
+command.log
+filenames.log
+default.svf
+
+# ---- Logs ----
+*.log
+icc2_output.txt
+
+# ---- Layout outputs (contain licensed library data) ----
+*.gds
+*.gds2
+*.oas
+*.def
+*.spef
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
